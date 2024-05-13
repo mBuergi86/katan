@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1715586011017" clover="3.2.0">
-  <project timestamp="1715586011017" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4" elements="31" coveredelements="31" complexity="0" loc="21" ncloc="21" packages="2" files="2" classes="2"/>
+<coverage generated="1715591461454" clover="3.2.0">
+  <project timestamp="1715591461455" name="All files">
+    <metrics statements="37" coveredstatements="37" conditionals="11" coveredconditionals="11" methods="6" coveredmethods="6" elements="54" coveredelements="54" complexity="0" loc="37" ncloc="37" packages="3" files="3" classes="3"/>
     <package name="practice002">
       <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="practice002.js" path="C:\Users\marku\OneDrive\Dokumente\Programmierung\TypeScript\katan\src\practice002\practice002.js">
@@ -33,6 +33,28 @@
         <line num="9" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="practice004">
+      <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+      <file name="practice004.js" path="C:\Users\marku\OneDrive\Dokumente\Programmierung\TypeScript\katan\src\practice004\practice004.js">
+        <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
       </file>
     </package>
   </project>
