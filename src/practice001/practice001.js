@@ -1,9 +1,10 @@
-var order = function (words) {
+"use strict";
+const order = (words) => {
     return words
         .split(" ")
-        .sort(function (a, b) {
-        var numA = +(a.match(/\d+/) || []).join(" ");
-        var numB = +(b.match(/\d+/) || []).join(" ");
+        .sort((a, b) => {
+        const numA = +(a.match(/\d+/) || []).join(" ");
+        const numB = +(b.match(/\d+/) || []).join(" ");
         return numA - numB;
     })
         .join(" ");
